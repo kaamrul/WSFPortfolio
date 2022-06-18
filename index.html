@@ -5,48 +5,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="css/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link href="css/font.css" rel="stylesheet">
   <link href="aos-animation/aos.css" rel="stylesheet">
+  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
   <title>Portfolio</title>
 
-  <!-- FAVICONS ICON -->
-  <link rel="icon" href="images/favicon.ico" type="image/logo-011.png" />
-	<link rel="shortcut icon" type="image/x-icon" href="images/logo-011.png" />
+
 </head>
 
 <body style="background-color: #252525; font-family: 'Poppins', sans-serif;">
-  <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top headerclass" style=" background: #4A4B4B; ">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top headerclass" style=" transition: all 0.5s;
+    z-index: 997;
+    padding: 10px 0; background: #4A4B4B; margin: 3%; border-radius: 100px;">
+      <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <p style="font-size: 36px; color:#38E3E3; font-family: 'Poppins', sans-serif; font-weight: bold;">Masum</p>
+        <a href="index.html" class="logo d-flex align-items-center">
+          <p style="font-size: 36px; color:#38E3E3; font-family: 'Poppins', sans-serif; font-weight: bold;">Masum</p>
 
-      </a>
+        </a>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li style="margin-left: -30px;"><a class="nav-link scrollto" href="#banner"><span>Home</span></a></li>
-          <li class="dropdown"><a class="nav-link scrollto" href="#skills"><span>Skills</span></a></li>
-          <li class="dropdown"><a class="nav-link scrollto" href="#services"><span>Services</span></a>
-          </li>
-          <li><a class="nav-link scrollto" href="#complete_project"><span>Projects</span></a></li>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto" href="#banner"><span>Home</span></a></li>
+            <li class="dropdown"><a class="nav-link scrollto" href="#skills"><span>Skills</span></a></li>
+            <li class="dropdown"><a class="nav-link scrollto" href="#services"><span>Services</span></a>
+            </li>
+            <li><a class="nav-link scrollto" href="#complete_project"><span>Projects</span></a></li>
 
-          <li><a class="nav-link scrollto" href="#testimonials"><span>Testimonials</span></a></li>
-          <li><a class="nav-link scrollto" href="#contact"><span>Contact me</span></a></li>
+            <li><a class="nav-link scrollto" href="#testimonials"><span>Testimonials</span></a></li>
+            <li><a class="nav-link scrollto" href="#contact"><span>Contact me</span></a></li>
 
-          <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-    </div>
-  </header>
-  <!-- End Header -->
+            <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
   <main style="font-family: 'Poppins', sans-serif;">
 
@@ -76,17 +79,17 @@
               <span class="letters">FULL STACK WEB DEVELOPER</span>
             </span>
           </h1>
-          <p class="banner-para" data-aos="zoom-in-up" data-aos-duration="2000">
-          Hello, Kia Ora & As-salamu alaykum.<br/>
+          <pre class="banner-para" data-aos="zoom-in-up" data-aos-duration="2000">
+          Hello, Kia Ora & As-salamu alaykum.
           I Have a degree from Massey university New Zealand and 8+ years of industry experience.
-          I  have several opportunities to work in development  technologies that let me gather a 
-          lot of skills . Working for companies and individuals around the globe I met and learnt 
-          from amazing and ambitious people.<br/>
+          I have several opportunities to work in development technologies that let me gather a 
+          lot of skills. Working for companies and individuals around the globe I met and learnt 
+          from amazing and ambitious people.
           I am a full stack developer and love solving challenges through technology. I am based 
           in Auckland, New Zealand, and travels across NZ & Australia for work and hobbies. Thank 
           you so much for your visit. Let's Discuss Over a Coffee about your exciting project. 
           Welcome again 😊
-          </p>
+          </pre>
         </div>
       </div>
       </div>
@@ -104,139 +107,139 @@
 
       <div class="container">
         <div class="row text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="95" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95</text>
               </svg>
-              <p class="p-bar-name">Figma & Canva</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">Figma & Canva</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="96" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">96</text>
               </svg>
-              <p class="p-bar-name">HTML &
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">HTML &
                 CSS</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="93" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">93</text>
               </svg>
-              <p class="p-bar-name">Javascript</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">Javascript</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="97" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">97</text>
               </svg>
-              <p class="p-bar-name">PHP</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">PHP</p>
             </div>
           </div>
         </div>
 
         <div class="row text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="97" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">97</text>
               </svg>
-              <p class="p-bar-name">MySQL</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">MySQL</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="93" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95</text>
               </svg>
-              <p class="p-bar-name">Laravel</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">Laravel</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="93" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">93</text>
               </svg>
-              <p class="p-bar-name">API</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">API</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="98" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">98</text>
               </svg>
-              <p class="p-bar-name">React Native</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">React Native</p>
             </div>
           </div>
         </div>
         <div class="row text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="96" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">96</text>
               </svg>
-              <p class="p-bar-name">Vue.js</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">Vue.js</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="95" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">95</text>
               </svg>
-              <p class="p-bar-name">CMS</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">CMS</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="94" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">94</text>
               </svg>
-              <p class="p-bar-name">Web Application</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">Web Application</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+          <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="sdiv svg-container text-center">
               <svg class="radial-progress" data-countervalue="98" viewBox="0 0 80 80">
                 <circle class="bar-static" cx="40" cy="40" r="35"></circle>
                 <circle class="bar--animated" cx="40" cy="40" r="35" style="stroke-dashoffset: 217.8;"></circle>
                 <text class="countervalue start" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">98</text>
               </svg>
-              <p class="p-bar-name">Software Development</p>
+              <p style="font-size:20px; color: white; font-weight: bold; padding-top: 10px;">Software Development</p>
             </div>
           </div>
         </div>
@@ -277,21 +280,19 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 card-for-mobile" data-aos="fade-down-left" data-aos-duration="2000">
-            <div class="card"
-              style="height: auto; background-color: #4A4B4B; padding: 3%;  border-top:2px solid	#7FFFD4;">
+            <div class="card" style="height: auto; background-color: #4A4B4B; padding: 3%; border-top:2px solid#81D8F7;">
               <div class="card-body">
-                <h5 class="card-title" style="color:#38E3E3; font-weight:bold;font-size: 25px;">Full Stack development
+                <h5 class="card-title" style="color:#38E3E3; font-weight:bold;font-size: 25px;">Back-end development
                 </h5>
-                <p class="card-text" style="color: white; ">I offer full stack development which refers to the front end
-                  and back end. Front end includes everything that a client can see and interact with. Back end refers
-                  to architecture, database, server, API and more. </p>
+                <p class="card-text" style="color: white; ">Codes I write as back-end developers that help browsers to
+                  communicate with database information. It focuses on databases, scripting, and website/webapp
+                  architecture. It contains behind-the-scenes activities.</p>
               </div>
             </div>
           </div>
-         
         </div>
 
-        <div class="row margin-top-5">
+        <div class="row" style="margin-top: 20px;">
           <div class="col-lg-4 col-md-4 card-for-mobile" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
           data-aos-duration="2000">
             <div class="card"
@@ -306,18 +307,18 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-4 card-for-mobile" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
-          data-aos-duration="2000">
-            <div class="card" style="height: auto; background-color: #4A4B4B; padding: 3%; border-top:2px solid#81D8F7;">
+            data-aos-duration="2000">
+            <div class="card"
+              style="height: auto; background-color: #4A4B4B; padding: 3%;  border-top:2px solid	#7FFFD4;">
               <div class="card-body">
-                <h5 class="card-title" style="color:#38E3E3; font-weight:bold;font-size: 25px;">Back-end development
+                <h5 class="card-title" style="color:#38E3E3; font-weight:bold;font-size: 25px;">Full Stack development
                 </h5>
-                <p class="card-text" style="color: white; ">Codes I write as back-end developers that help browsers to
-                  communicate with database information. It focuses on databases, scripting, and website/webapp
-                  architecture. It contains behind-the-scenes activities.</p>
+                <p class="card-text" style="color: white; ">I offer full stack development which refers to the front end
+                  and back end. Front end includes everything that a client can see and interact with. Back end refers
+                  to architecture, database, server, API and more. </p>
               </div>
             </div>
           </div>
-          
           <div class="col-lg-4 col-md-4 col-sm-4 card-for-mobile" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="2000">
             <div class="card"
@@ -450,13 +451,14 @@
     </section>
 
     <!--complete project-->
+
     <section class="cp" id="complete_project">
       <div class="skill completeProject">
         <div class=" container">
           <div class="row">
             <div class="col-lg-3 col-3 pl-6 animate seven">
               <h1 class="animation h1tag3">
-                Projects <i class="fas fa-angles-right"></i>
+                Projects
               </h1>
             </div>
             <div class="col-lg-3 col-3 b-1 pl-6 animate seven" onclick="getproject(1)" id="webIndex">
@@ -484,7 +486,7 @@
             data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
             <div class="bgImg">
               <img alt="laptop-iframe" class="iframe" src="images/main-laptop-iframe7.png">
-              <div class="box"><img src="images/web3.jpg" class="img-fluid" alt=""></div>
+              <div class="box"><img src="images/PMS-Web App.jpg" class="img-fluid" alt=""></div>
             </div>
           </div>
 
@@ -492,7 +494,7 @@
             data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
             <div class="bgImg">
               <img alt="laptop-iframe" class="iframe" src="images/main-laptop-iframe7.png">
-              <div class="box"><img src="images/web2.jpg" class="img-fluid" alt=""></div>
+              <div class="box"><img src="images/CMS-WEB APP.jpg" class="img-fluid" alt=""></div>
             </div>
           </div>
         </div>
@@ -502,7 +504,7 @@
             data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
             <div class="bgImg">
               <img alt="laptop-iframe" class="iframe" src="images/main-laptop-iframe7.png">
-              <div class="box"><img src="images/web1.jpg" class="img-fluid" alt=""></div>
+              <div class="box"><img src="images/Beauty-Salon.jpg" class="img-fluid" alt=""></div>
             </div>
           </div>
 
@@ -510,7 +512,7 @@
            data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
           <div class="bgImg">
             <img alt="laptop-iframe" class="iframe" src="images/main-laptop-iframe7.png">
-            <div class="box"><img src="images/web4.jpg" class="img-fluid" alt=""></div>
+            <div class="box"><img src="images/localHouse.jpg" class="img-fluid" alt=""></div>
           </div>
         </div>
         </div>
@@ -521,20 +523,20 @@
           <div class="col-lg-3 col-md-3 portfolio-item filter-web">
             <div class="bgImg-mobile">
               <img alt="laptop-iframe" class="mobile-iframe" src="images/mob.png">
-              <div class="mobile-box"><img src="images/mobile1.jpg" class="img-fluid" alt=""></div>
+              <div class="mobile-box"><img src="images/454567300.png" class="img-fluid" alt=""></div>
             </div>
           </div>
           <div class="col-lg-3 col-md-3 portfolio-item filter-web">
             <div class="bgImg-mobile">
               <img alt="laptop-iframe" class="mobile-iframe" src="images/mob.png">
-              <div class="mobile-box"><img src="images/mobile2.jpg" class="img-fluid" alt=""></div>
+              <div class="mobile-box"><img src="images/Restaurant.jpg" class="img-fluid" alt=""></div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-3 portfolio-item filter-web">
             <div class="bgImg-mobile">
               <img alt="laptop-iframe" class="mobile-iframe" src="images/mob.png">
-              <div class="mobile-box"><img src="images/mobile3.jpg" class="img-fluid" alt=""></div>
+              <div class="mobile-box"><img src="images/Restaurant.jpg" class="img-fluid" alt=""></div>
             </div>
           </div>
           <div class="col-lg-3 col-md-3 portfolio-item filter-web">
@@ -563,7 +565,7 @@
           </div>
         </div>
 
-        <div class="row marTop-5 portfolio-container">
+        <div class="row mt-5 portfolio-container">
           <div class="col-lg-6 col-md-6 portfolio-item filter-web">
             <div class="bgImg">
               <img alt="laptop-iframe" class="iframe" src="images/main-laptop-iframe7.png">
@@ -737,7 +739,6 @@
   <script src='jquery/jquery.svg3dtagcloud.min.js'></script>
   <script src="aos-animation/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <script src="icon/jquery.min.js"></script>
   <script>
     AOS.init();
   </script>
